@@ -20,7 +20,7 @@ public class Ejercicio1 {
     public static void main(String[] args) {
         
         Service cargar = new Service();
-        Libro primerLibro = cargar.cargardatos();
+        Libro primerLibro = cargar.CargarDatos();
         System.out.println(primerLibro);
         
     }

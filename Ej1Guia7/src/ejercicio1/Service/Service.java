@@ -14,7 +14,7 @@ import java.util.Scanner;
  */
 public class Service {
     
-    public Libro cargardatos(){
+    public Libro CargarDatos(){
        
         Scanner leer = new Scanner(System.in).useDelimiter("\n");//
         
