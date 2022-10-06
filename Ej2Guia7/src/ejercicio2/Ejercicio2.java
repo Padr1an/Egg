@@ -19,10 +19,10 @@ public class Ejercicio2 {
      */
     public static void main(String[] args) {
         
-        Service cargarRadio = new Service();
-        Circunferencia primerCirculo = cargarRadio.crearCircunferencia();
-        System.out.println("Area: "+cargarRadio.Area(primerCirculo));
-        System.out.println("Perimetro: "+cargarRadio.perimetro(primerCirculo));
+        Service sc = new Service();
+        Circunferencia primerCirculo = sc.crearCircunferencia();
+        System.out.println("Area: "+sc.Area(primerCirculo));
+        System.out.println("Perimetro: "+sc.perimetro(primerCirculo));
         
     }
     
